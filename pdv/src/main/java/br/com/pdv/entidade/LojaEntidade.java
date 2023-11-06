@@ -17,8 +17,7 @@ public class LojaEntidade implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	@Column(name = "id")
-	
+	@Column(name = "id")	
 	private Long id;
 
 	public Long getId() {
