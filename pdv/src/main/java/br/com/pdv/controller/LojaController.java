@@ -13,7 +13,7 @@ public class LojaController {
 	@Autowired
 	private LojaRepository lojaRepository;
 
-	@GetMapping({"/lojas"}) //é o nome que eu quiser colocar
+	@GetMapping({"/"}) //é o nome que eu quiser colocar
     public String home(ModelMap model) { 	
 		
 		
